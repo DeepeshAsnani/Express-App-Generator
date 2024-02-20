@@ -1,0 +1,32 @@
+{
+  "name": "create-express-app",
+  "version": "1.0.0",
+  "description": "An npm cli tool to create express boiler plate code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "create express app": "./index.js",
+    "generate express resource": "./resourceGenerator.js"
+  },
+  "keywords": [
+    "express",
+    "express-boiler-plate"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DeepeshAsnani/Express-App-Generator.git"
+  },
+  "author": "Deepesh Asnani",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "inquirer": "^8.0.0",
+    "shelljs": "^0.8.5"
+  },
+  "bugs": {
+    "url": "https://github.com/DeepeshAsnani/Express-App-Generator/issues"
+  },
+  "homepage": "https://github.com/DeepeshAsnani/Express-App-Generator#readme"
+}
