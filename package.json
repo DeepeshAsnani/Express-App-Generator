@@ -1,14 +1,14 @@
 {
-  "name": "create-express-app",
-  "version": "1.0.0",
+  "name": "express-app-creator",
+  "version": "1.0.1",
   "description": "An npm cli tool to create express boiler plate code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create express app": "./index.js",
-    "generate express resource": "./resourceGenerator.js"
+    "create-express-app": "./index.js",
+    "generate-express-resource": "./resourceGenerator.js"
   },
   "keywords": [
     "express",

@@ -2,7 +2,6 @@
 const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
-
 const Choices = fs.readdirSync(path.join(__dirname, "generate"));
 
 const CurrDir = process.cwd();
@@ -32,7 +31,7 @@ const generateResource = (
       fs.writeFileSync(writePath, fileContent, "utf-8");
     } else if (stats.isDirectory()) {
       const dircPath = path.join(CurrDir, file);
-      console.log("file", file);
+      // console.log("file", file);
       if (!fs.existsSync(dircPath)) {
         console.log("hit");
         fs.mkdirSync(path.join(CurrDir, file));

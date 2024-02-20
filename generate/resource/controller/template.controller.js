@@ -2,6 +2,10 @@ const { StatusCodes } = require("http-status-codes");
 const logger = require("../config/logger");
 const { catchAsync } = require("../utils/catchAsync");
 
+/**
+ *  *Note Replace serviceName with the service you want to Name
+ */
+
 const create = catchAsync(async (req, res) => {
   let payload = { ...req.body };
   const newRecord = await serviceName.create(payload);

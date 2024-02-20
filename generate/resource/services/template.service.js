@@ -1,5 +1,9 @@
 const logger = require("../config/logger");
 
+/**
+ * * Note Replace the modelName with the Your Model
+ */
+
 const create = async (payload) => {
   const newRecord = new modelName(payload);
   return await newRecord.save();
